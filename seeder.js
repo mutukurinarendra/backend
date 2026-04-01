@@ -7,7 +7,7 @@ dotenv.config();
 
 const seedDatabase = async () => {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/photo_studio_db");
+    await mongoose.connect("mongodb+srv://admin:Zs7CZfpn5X7I2wvT@cluster0.z69smmb.mongodb.net/?appName=Cluster0&dbname=photo_studio_db");
     console.log('✅ Connected to MongoDB');
 
     // Clear existing data
